@@ -1,5 +1,5 @@
 <h1> Youtube most popular videos feed </h1>
 {% for item in response.items %}
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/v1gTI4BOPUw?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/{{item.id}}?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/v1gTI4BOPUw?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="https://www.youtube.com/v/{{item.id}}?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
 
 {% endfor %}
